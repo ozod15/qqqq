@@ -1,0 +1,36 @@
+body {
+  background-color: #2e5f5c;
+  font-family: sans-serif;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+h1 {
+  background-color: #3a1f1f;
+  color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+.outer-box {
+  background-color: red; /* Margin'ni ko'rsatish */
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.border-box {
+  background-color: black; /* Border'ni ko'rsatish */
+  padding: 20px;
+}
+
+.content-box {
+  background-color: #34e3bb; /* Padding'ni ko'rsatish */
+  padding: 20px;
+}
+
+.text-block {
+  font-weight: bold;
+}
